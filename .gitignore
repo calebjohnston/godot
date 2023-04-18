@@ -204,6 +204,7 @@ cscope.po.out
 .history/
 
 # Xcode
+XCBuildData
 xcuserdata/
 *.xcscmblueprint
 *.xccheckout
