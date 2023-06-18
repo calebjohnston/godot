@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "ln -f ${PROJECT_DIR}/godot/bin/godot.osx.tools.x86_64 ${PROJECT_DIR}/godot/bin/godot&#10;">
+               scriptText = "ln -f ${PROJECT_DIR}/../../bin/godot.osx.tools.x86_64 ${PROJECT_DIR}/../../bin/godot&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
@@ -63,7 +63,7 @@
       launchAutomaticallySubstyle = "2">
       <RemoteRunnable
          runnableDebuggingMode = "0"
-         RemotePath = "/Users/Caleb/Development/OpenSource/godot/bin/godot.osx.tools.x86_64">
+         RemotePath = "/Users/Caleb/Development/OpenSource/godot4/bin/godot.osx.tools.x86_64">
       </RemoteRunnable>
       <CommandLineArguments>
          <CommandLineArgument
@@ -72,7 +72,7 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--editor"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>
